@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>Services Page</title>
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Open+Sans|Raleway" rel="stylesheet">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/st.css">
@@ -12,47 +13,79 @@
   <body>
 
   	<!--header-->
-<div id="main-nav">
+    <header id="home">
 
-			<nav class="navbar">
-				<div class="container">
+    		<section class="top-nav hidden-xs">
+    			<div class="container">
+    				<div class="row">
+    					<div class="col-md-6">
+    						<div class="top-left">
 
-					<div class="navbar-header">
-						<a href="index.html" class="navbar-brand">MyLaw</a>
-						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#ftheme">
-							<span class="sr-only">Toggle</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-					</div>
+    							<ul>
+    								<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+    								<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+    								<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+    								<li><a href="#"><i class="fa fa-vk" aria-hidden="true"></i></a></li>
+    								<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+    							</ul>
 
-					<div class="navbar-collapse collapse" id="ftheme">
+    						</div>
+    					</div>
 
-						<ul class="nav navbar-nav navbar-right">
-							<li><a href="#home">home</a></li>
-							<li><a href="#about">about</a></li>
-							<li><a href="#services">services</a></li>
-							<li><a href="#">products</a></li>
+    					<div class="col-md-6">
+    						<div class="top-right">
+    							<p>Location:<span>Main Street 2020, City 3000</span></p>
+    						</div>
+    					</div>
 
-							<li><a href="#contact">contact</a></li>
+    				</div>
+    			</div>
+    		</section>
 
-							<li class="hidden-sm hidden-xs">
-								<!--<a href="#" id="ss"><i class="fa fa-search" aria-hidden="true"></i></a>-->
-							</li>
-						</ul>
+    		<!--main-nav-->
 
-					</div>
+    		<div id="main-nav">
 
-					<div class="search-form">
-						<form>
-							<input type="text" id="s" size="40" placeholder="Search..." />
-						</form>
-					</div>
+    			<nav class="navbar">
+    				<div class="container">
 
-				</div>
-			</nav>
-		</div>
+    					<div class="navbar-header">
+    						<a href="index.html" class="navbar-brand">MyBiz</a>
+    						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#ftheme">
+    							<span class="sr-only">Toggle</span>
+    							<span class="icon-bar"></span>
+    							<span class="icon-bar"></span>
+    							<span class="icon-bar"></span>
+    						</button>
+    					</div>
+
+    					<div class="navbar-collapse collapse" id="ftheme">
+
+    						<ul class="nav navbar-nav navbar-right">
+    							<li><a href="#home">home</a></li>
+    							<li><a href="#about">about</a></li>
+    							<li class="active"><a href="#service">services</a></li>
+    							<li><a href="#portfolio">portfolio</a></li>
+    							<li><a href="#contact">contact</a></li>
+    							<li class="hidden-sm hidden-xs">
+    								<a href="#" id="ss"><i class="fa fa-search" aria-hidden="true"></i></a>
+    							</li>
+    						</ul>
+
+    					</div>
+
+    					<div class="search-form">
+    						<form>
+    							<input type="text" id="s" size="40" placeholder="Search..." />
+    						</form>
+    					</div>
+
+    				</div>
+    			</nav>
+    		</div>
+
+    	</header>
+
 
   	<div id="service">
 		<div class="container">
@@ -183,7 +216,7 @@
 							<li><a href="#">FSSAI License</a></li>
 							<li><a href="#">Import Export Code</a></li>
 							<li><a href="#">Trade Mark Registration</a></li>
-							
+
 						</ul>
 					</div>
 				</div>
@@ -191,12 +224,12 @@
 				<div class="col-md-3">
 					<div class="footer-heading">
 						<h3><span>Taxation</span> </h3>
-						
+
 							<ul>
 								<li><a href="#">Income Tax Return</a></li>
 							<li><a href="#">TDS Return</a></li>
 							<li><a href="#">GST Registration</a></li>
-								
+
 							</ul>
 						</div>
 					</div>
@@ -205,12 +238,12 @@
 					<div class="col-md-3">
 					<div class="footer-heading">
 						<h3><span>Loans and others</span> </h3>
-						
+
 							<ul>
 								<li><a href="#">Business Loans</a></li>
 							<li><a href="#">Loan against property</a></li>
 							<li><a href="#">Online Seller Finance</a></li>
-								
+
 							</ul>
 						</div>
 					</div>
@@ -224,30 +257,32 @@
 	</div>
 
 <!--bottom footer-->
-	<div id="bottom-footer" class="hidden-xs">
+<div id="bottom-footer" class="hidden-xs">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-4 col-sm-offset-2">
-					
-				<!--		
+				<div class="col-md-4">
+					<div class="footer-left">
+						&copy; MyBix Theme. All rights reserved
+						<div class="credits">
+							<!--
                 All the links in the footer should remain intact.
                 You can delete the links only if you purchased the pro version.
                 Licensing information: https://bootstrapmade.com/license/
                 Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=MyBiz
               -->
-							
+							Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
 						</div>
 					</div>
 				</div>
 
-				<div class="col-md-12">
+				<div class="col-md-8">
 					<div class="footer-right">
 						<ul class="list-unstyled list-inline pull-right">
 							<li><a href="#home">Home</a></li>
 							<li><a href="#about">About</a></li>
 							<li><a href="#service">Service</a></li>
+							<li><a href="#portfolo">Portfolio</a></li>
 							<li><a href="#contact">Contact</a></li>
-							<li><a href="#products">products</a></li>
 						</ul>
 					</div>
 				</div>
@@ -255,6 +290,12 @@
 		</div>
 	</div>
 
+
+
+  <script src="js/jquery.min.js"></script>
+  	<script src="js/bootstrap.min.js"></script>
+
+	<script src="js/script.js"></script>
 
 
 
