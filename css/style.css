@@ -13,9 +13,19 @@
   	-webkit-box-shadow: 0 2px 6px #333;
   	box-shadow: 0 2px 6px #333;
     transition: all 0.5s;
+    display: inline;
 }
 
 #service{
   background-color: grey;
   color: black;
+}
+
+.footer-heading a
+{
+  display: inline;
+}
+.footer-heading li
+{
+  display: block;
 }

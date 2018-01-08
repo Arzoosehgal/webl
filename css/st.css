@@ -1122,7 +1122,7 @@ textarea:focus {
 #contact .contact-heading h2 {
 	font-family: 'Josefin Sans', sans-serif;
 	font-weight: 700;
-	font-size: 45px;
+	font-size: 36px;
 	text-transform: uppercase;
 }
 
@@ -1166,22 +1166,23 @@ textarea:focus {
 }
 
 /*Get In Touch*/
-#get-touch {
+#get-touch1 {
 	margin-top: 100px;
 }
 
-#get-touch .get-touch-heading {
+#get-touch1 .get-touch-heading {
 	text-align: center;
+
 }
 
-#get-touch .get-touch-heading h2 {
+#get-touch1 .get-touch-heading h2 {
 	font-family: 'Josefin Sans', sans-serif;
 	font-weight: 700;
 	font-size: 36px;
 	text-transform: uppercase;
 }
 
-#get-touch .get-touch-heading p {
+#get-touch1 .get-touch-heading p {
 	margin-top: 20px;
 	line-height: 25px;
 	color: #8e8e8e;
@@ -1189,7 +1190,7 @@ textarea:focus {
 }
 
 #get-touch .content {
-	margin-top: 50px;
+	margin-top: 40px;
 }
 
 #get-touch .content .form input {
@@ -1225,8 +1226,10 @@ textarea:focus {
 /*Map*/
 #map{
     position:relative;
-    margin-top:10px;
-    height: 400px;
+    margin-top:0px;
+    height: 330px;
+    width: 50%;
+
 
 }
 

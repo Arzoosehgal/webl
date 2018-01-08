@@ -11,53 +11,85 @@
   </head>
   <body>
   	<!--header-->
-<div id="main-nav">
+    <header id="home">
 
-			<nav class="navbar">
-				<div class="container">
+    		<section class="top-nav hidden-xs">
+    			<div class="container">
+    				<div class="row">
+    					<div class="col-md-6">
+    						<div class="top-left">
 
-					<div class="navbar-header">
-						<a href="index.html" class="navbar-brand">MyLaw</a>
-						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#ftheme">
-							<span class="sr-only">Toggle</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-					</div>
+    							<ul>
+    								<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+    								<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+    								<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+    								<li><a href="#"><i class="fa fa-vk" aria-hidden="true"></i></a></li>
+    								<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+    							</ul>
 
-					<div class="navbar-collapse collapse" id="ftheme">
+    						</div>
+    					</div>
 
-						<ul class="nav navbar-nav navbar-right">
-							<li><a href="#home">home</a></li>
-							<li><a href="#about">about</a></li>
-							<li><a href="#services">services</a></li>
-							<li><a href="#">products</a></li>
+    					<div class="col-md-6">
+    						<div class="top-right">
+    							<p>Location:<span>New Delhi</span></p>
+    						</div>
+    					</div>
 
-							<li><a href="#contact">contact</a></li>
+    				</div>
+    			</div>
+    		</section>
 
-							<li class="hidden-sm hidden-xs">
-								<!--<a href="#" id="ss"><i class="fa fa-search" aria-hidden="true"></i></a>-->
-							</li>
-						</ul>
+    		<!--main-nav-->
 
-					</div>
+    		<div id="main-nav">
 
-					<div class="search-form">
-						<form>
-							<input type="text" id="s" size="40" placeholder="Search..." />
-						</form>
-					</div>
+    			<nav class="navbar">
+    				<div class="container">
 
-				</div>
-			</nav>
-		</div>
+    					<div class="navbar-header">
+    						<a href="index.html" class="navbar-brand">MyLaw</a>
+    						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#ftheme">
+    							<span class="sr-only">Toggle</span>
+    							<span class="icon-bar"></span>
+    							<span class="icon-bar"></span>
+    							<span class="icon-bar"></span>
+    						</button>
+    					</div>
+
+    					<div class="navbar-collapse collapse" id="ftheme">
+
+    						<ul class="nav navbar-nav navbar-right">
+    							<li><a href="#home">home</a></li>
+    							<li><a href="#about">about</a></li>
+    							<li><a href="#service">services</a></li>
+    							<li><a href="#portfolio">portfolio</a></li>
+    							<li class="active"><a href="#contact">contact</a></li>
+    							<li class="hidden-sm hidden-xs">
+    								<a href="#" id="ss"><i class="fa fa-search" aria-hidden="true"></i></a>
+    							</li>
+    						</ul>
+
+    					</div>
+
+    					<div class="search-form">
+    						<form>
+    							<input type="text" id="s" size="40" placeholder="Search..." />
+    						</form>
+    					</div>
+
+    				</div>
+    			</nav>
+    		</div>
+
+    	</header>
 <div class="container">
   <!--contact form-->
-	<div id="get-touch">
+	
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-6">
+					<div id="get-touch1">
 					<div class="get-touch-heading">
 						<h2>get in touch</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent metus magna,malesuada porta elementum vitae.</p>
@@ -65,6 +97,22 @@
 				</div>
 			</div>
 
+<div class="col-xs-12 col-sm-8 col-md-6 ">
+	<div id="contact">
+					<div class="contact-heading">
+						<h2>contact us</h2>
+						<p>Company address and phone no</p>
+					</div>
+				</div>
+			</div>
+
+
+				
+			</div>
+
+
+
+<div id="get-touch">
 			<div class="content">
 				<div class="row">
           <div class="col-md-6">
@@ -102,29 +150,7 @@
   					</form>
           </div>
 
-				</div>
-			</div>
-		</div>
-	</div>
-
-
-		</div>
-	</div>
-<!--contact-->
-	<div id="contact">
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
-					<div class="contact-heading">
-						<h2>contact us</h2>
-						<p>Company address and phone no</p>
-					</div>
-				</div>
-			</div>
-		</div>
-
-
-<!--map-->
+          			<!--map-->
 <div id="map">
 
 </div>
@@ -146,6 +172,23 @@
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAwf7WeSKxfOZK93hKdlRv16Gtbk6VldEk&callback=initMap">
 	</script>
 </div>
+
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+		</div>
+
+
 
 
 
@@ -211,36 +254,47 @@
 	</div>
 
 	<!--bottom footer-->
-	<div id="bottom-footer" class="hidden-xs">
+<div id="bottom-footer" class="hidden-xs">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-4 col-sm-offset-2">
-
-				<!--
+				<div class="col-md-4">
+					<div class="footer-left">
+						&copy; MyLaw Website. All rights reserved
+						<div class="credits">
+							<!--
                 All the links in the footer should remain intact.
                 You can delete the links only if you purchased the pro version.
                 Licensing information: https://bootstrapmade.com/license/
                 Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=MyBiz
               -->
-
+						<!--	Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>-->
 						</div>
 					</div>
 				</div>
 
-				<div class="col-md-12">
+				<div class="col-md-8">
 					<div class="footer-right">
 						<ul class="list-unstyled list-inline pull-right">
 							<li><a href="#home">Home</a></li>
 							<li><a href="#about">About</a></li>
 							<li><a href="#service">Service</a></li>
+							<li><a href="#portfolo">Portfolio</a></li>
 							<li><a href="#contact">Contact</a></li>
-							<li><a href="#products">products</a></li>
 						</ul>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
+
+
+
+  <script src="js/jquery.min.js"></script>
+  	<script src="js/bootstrap.min.js"></script>
+
+	<script src="js/script.js"></script>
+
+
 
 
 
