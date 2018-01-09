@@ -83,7 +83,6 @@
     		</div>
 
     	</header>
-<div class="container">
   <!--contact form-->
 	
 		<div class="container">
@@ -95,27 +94,8 @@
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent metus magna,malesuada porta elementum vitae.</p>
 					</div>
 				</div>
-			</div>
-
-<div class="col-xs-12 col-sm-8 col-md-6 ">
-	<div id="contact">
-					<div class="contact-heading">
-						<h2>contact us</h2>
-						<p>Company address and phone no</p>
-					</div>
-				</div>
-			</div>
-
-
-				
-			</div>
-
-
-
 <div id="get-touch">
 			<div class="content">
-				<div class="row">
-          <div class="col-md-6">
             <div id="sendmessage">Your message has been sent. Thank you!</div>
   					<div id="errormessage"></div>
 
@@ -149,28 +129,30 @@
   						</div>
   					</form>
           </div>
+</div>
+			</div>
 
-          			<!--map-->
+<div class="col-xs-12 col-sm-6 col-md-6 ">
+	<div id="contact">
+					<div class="contact-heading">
+						<h2>contact us</h2>
+						<p>Company address and phone no</p>
+					</div>
+				</div>
 <div id="map">
 
 </div>
-<script>
-	function initMap()
-	{
-		var location={ lat: 28.704059,lng: 77.102490};
-   		var map=new google.maps.Map(document.getElementById("map"),{
-   			zoom: 10,
-   			center: location
-   		});
-   		var marker=new google.maps.Marker({
-   			position: location,
-   			map: map
-   		});
-	}
+				
+			</div>
 
-</script>
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAwf7WeSKxfOZK93hKdlRv16Gtbk6VldEk&callback=initMap">
-	</script>
+
+				
+			</div>
+
+
+
+
+
 </div>
 
 
@@ -295,7 +277,25 @@
 	<script src="js/script.js"></script>
 
 
+          			<!--map-->
 
+<script>
+	function initMap()
+	{
+		var location={ lat: 28.704059,lng: 77.102490};
+   		var map=new google.maps.Map(document.getElementById("map"),{
+   			zoom: 10,
+   			center: location
+   		});
+   		var marker=new google.maps.Marker({
+   			position: location,
+   			map: map
+   		});
+	}
+
+</script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAwf7WeSKxfOZK93hKdlRv16Gtbk6VldEk&callback=initMap">
+	</script>
 
 
 
