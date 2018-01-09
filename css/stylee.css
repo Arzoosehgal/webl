@@ -447,6 +447,7 @@ address {
 	-o-background-size:cover;
 	-ms-background-size:cover;
 	position:relative;
+    margin-top: 100px;
 }
 .clients h3,.practice h3,.resource h3,.contact h3 {
     font-size: 2.5em;

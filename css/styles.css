@@ -102,7 +102,7 @@ header{ font-weight: 400; }
 /* ---------------------------------
 3. MENU
 --------------------------------- */
-
+/*
 header{ overflow: hidden; background: #fff; box-shadow: 0px 2px 10px rgba(0,0,0, .3); }
 
 header .logo{ float: left; height: 20px; margin: 20px 30px; }
@@ -127,7 +127,7 @@ header .visible.main-menu{ display: block; }
 
 /* SEARCH AREA */
 
-header .src-area{ position: relative; height: 60px; width: 50%; float: right; display: inline-block; background: #F5F7F6; }
+/*header .src-area{ position: relative; height: 60px; width: 50%; float: right; display: inline-block; background: #F5F7F6; }
 
 header .src-area .src-input{ position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 100%;
 	padding: 0 20px 0 70px; background: transparent; border: 0; outline: 0; }
@@ -149,7 +149,7 @@ header .src-area .src-btn{ position: absolute; top: 0; bottom: 0; left: 0; width
 4. SLIDER
 --------------------------------- */
 
-.slider{ height: 500px; width: 100%; /*background-image: url(../img/law2.jpg);*/ background-size: cover; }  
+.slider{ height: 500px; width: 100%; /*background-image: url(../img/law2.jpg);*/ background-size: cover; margin-top: 100px;}  
 
 
 
