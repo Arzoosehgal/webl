@@ -1,115 +1,84 @@
 <!doctype html>
 <html lang="en">
-  <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <title>Blog Page</title>
-	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Open+Sans|Raleway" rel="stylesheet">
-    <link rel="stylesheet" href="../css/blog-index-bootstrap.css">
-    <link rel="stylesheet" href="../css/blog-index-flexslider.css">
-    <link rel="stylesheet" href="../css/blog-index-style.csS">
-
-	<link rel="stylesheet" href="../css/bootstrap.min.css">
-	<link rel="stylesheet" href="../css/font-awesome.min.css">
-	<link rel="stylesheet" href="../css/st.css">
-  <link rel="stylesheet" href="../css/style.css">
-
-  </head>
-  <body>
-
-  	<!--header-->
-    <header id="home">
-
-    		<section class="top-nav hidden-xs">
-    			<div class="container">
-    				<div class="row">
-    					<div class="col-md-6">
-    						<div class="top-left">
-
-    							<ul>
-    								<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-    								<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-    								<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-    								<li><a href="#"><i class="fa fa-vk" aria-hidden="true"></i></a></li>
-    								<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-    							</ul>
-
-    						</div>
-    					</div>
-
-    					<div class="col-md-6">
-    						<div class="top-right">
-    							<p>Location:<span>New Delhi</span></p>
-    						</div>
-    					</div>
-
-    				</div>
-    			</div>
-    		</section>
-
-    		<!--main-nav-->
-
-    		<div id="main-nav">
-
-    			<nav class="navbar">
-    				<div class="container">
-
-    					<div class="navbar-header">
-    						<a href="index.html" class="navbar-brand">MyLaw</a>
-    						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#ftheme">
-    							<span class="sr-only">Toggle</span>
-    							<span class="icon-bar"></span>
-    							<span class="icon-bar"></span>
-    							<span class="icon-bar"></span>
-    						</button>
-    					</div>
-
-    					<div class="navbar-collapse collapse" id="ftheme">
-
-    						<ul class="nav navbar-nav navbar-right">
-    							<li><a href="#home">home</a></li>
-    							<li><a href="#about">about</a></li>
-    							<li><a href="#service">services</a></li>
-    							<li><a href="#portfolio">portfolio</a></li>
-    							<li><a href="#contact">contact</a></li>
-    							<li class="hidden-sm hidden-xs">
-    								<a href="#" id="ss"><i class="fa fa-search" aria-hidden="true"></i></a>
-    							</li>
-    						</ul>
-
-    					</div>
-
-    					<div class="search-form">
-    						<form>
-    							<input type="text" id="s" size="40" placeholder="Search..." />
-    						</form>
-    					</div>
-
-    				</div>
-    			</nav>
-    		</div>
-
-    	</header>
-
-
-<!-- script-for-menu -->
-    <!-- script-for-menu -->
-        <script>
-            $("span.menu").click(function(){
-                $(" ul.navig").slideToggle("slow" , function(){
-                });
-            });
-        </script>
-    <!-- script-for-menu -->
-                
-
-    <!-- banner-starts -->
-    <div class="banner-1">
-        <!-- <img src="../img/1.jpg" class="img-responsive" alt=""> -->
-        
-    </div>
-    <!--banner-end-->
-    <!--clients-->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <title>Blog Page</title>
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Open+Sans|Raleway" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+        <link rel="stylesheet" href="../css/blog-index-bootstrap.css">
+        <link rel="stylesheet" href="../css/blog-index-flexslider.css">
+        <link rel="stylesheet" href="../css/blog-index-style.css">
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/font-awesome.min.css">
+        <link rel="stylesheet" href="../css/default.css">
+        <link rel="stylesheet" href="../css/style.css">
+    </head>
+    <body>
+        <!--header-->
+        <header id="home">
+            <section class="top-nav hidden-xs">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="top-left">
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-vk" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="top-right">
+                                <p>Location:<span>New Delhi</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--main-nav-->
+            <div id="main-nav">
+                <nav class="navbar">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <a href="index.html" class="navbar-brand">MyLaw</a>
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#ftheme">
+                            <span class="sr-only">Toggle</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <div class="navbar-collapse collapse" id="ftheme">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a href="../index.html">home</a></li>
+                                <li><a href="../about-us.html">about</a></li>
+                                <li><a href="../services.html">services</a></li>
+                                <li class="active"><a href="blog/index.html">blog</a></li>
+                                <li><a href="../contactus.html">contact</a></li>
+                                <li class="hidden-sm hidden-xs">
+                                    <a href="#" id="ss"><i class="fa fa-search" aria-hidden="true"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="search-form">
+                            <form>
+                                <input type="text" id="s" size="40" placeholder="Search..." />
+                            </form>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <!-- banner-starts -->
+        <div class="banner-1">
+            <!-- <img src="../img/1.jpg" class="img-responsive" alt=""> -->
+        </div>
+        <!--banner-end-->
+        <!--clients-->
         <div class="clients">
             <div class="container">
                 <div class="cli-top">
@@ -133,135 +102,117 @@
                     </div>
                     <div class="clearfix"></div>
                 </div>
-                    <div class="col-md-4 clients-left">
-                        <img src="../img/law3.jpg" alt=" " class="img-responsive">
-                        <h5><a href="#">Tuv</a></h5>
-                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
-                        <a class="hvr-shutter-in-horizontal" href="#">More</a>
-                    </div>
-                    <div class="col-md-4 clients-left">
-                        <img src="../img/law3.jpg" alt=" " class="img-responsive">
-                        <h5><a href="#">Xyz</a></h5>
-                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
-                        <a class="hvr-shutter-in-horizontal" href="#">More</a>
-                    </div>
-                    <div class="col-md-4 clients-left">
-                        <img src="../img/law3.jpg" alt=" " class="img-responsive">
-                        <h5><a href="#">Mno</a></h5>
-                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
-                        <a class="hvr-shutter-in-horizontal" href="#">More</a>
-                    </div>
-                    <div class="clearfix"></div>
-                
+                <div class="col-md-4 clients-left">
+                    <img src="../img/law3.jpg" alt=" " class="img-responsive">
+                    <h5><a href="#">Tuv</a></h5>
+                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                    <a class="hvr-shutter-in-horizontal" href="#">More</a>
+                </div>
+                <div class="col-md-4 clients-left">
+                    <img src="../img/law3.jpg" alt=" " class="img-responsive">
+                    <h5><a href="#">Xyz</a></h5>
+                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                    <a class="hvr-shutter-in-horizontal" href="#">More</a>
+                </div>
+                <div class="col-md-4 clients-left">
+                    <img src="../img/law3.jpg" alt=" " class="img-responsive">
+                    <h5><a href="#">Mno</a></h5>
+                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                    <a class="hvr-shutter-in-horizontal" href="#">More</a>
+                </div>
+                <div class="clearfix"></div>
             </div>
         </div>
-    <!--clients-end-->
-
-
-
+        <!--clients-end-->
         <!--footeer-->
-<div id="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3">
-                    <div class="footer-heading">
-                        <h3><span>form a company</span> </h3>
-                        <ul>
-                        <li><a href="#">Private Limited Registration</a></li>
-                        <li><a href="#">Limited Liability Partnership</a></li>
-                        <li><a href="#">One Person Company</a></li>
+        <div id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="footer-heading">
+                            <h3><span>form a company</span> </h3>
+                            <ul>
+                            <li><a href="#">Private Limited Registration</a></li>
+                            <li><a href="#">Limited Liability Partnership</a></li>
+                            <li><a href="#">One Person Company</a></li>
+                        </div>
                     </div>
-                </div>
-
-                <div class="col-md-3">
-                    <div class="footer-heading">
-                        <h3><span>Registration</span> </h3>
-                        <ul>
-                            <li><a href="#">FSSAI License</a></li>
-                            <li><a href="#">Import Export Code</a></li>
-                            <li><a href="#">Trade Mark Registration</a></li>
-
-                        </ul>
+                    <div class="col-md-3">
+                        <div class="footer-heading">
+                            <h3><span>Registration</span> </h3>
+                            <ul>
+                                <li><a href="#">FSSAI License</a></li>
+                                <li><a href="#">Import Export Code</a></li>
+                                <li><a href="#">Trade Mark Registration</a></li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
-
-                <div class="col-md-3">
-                    <div class="footer-heading">
-                        <h3><span>Taxation</span> </h3>
-
+                    <div class="col-md-3">
+                        <div class="footer-heading">
+                            <h3><span>Taxation</span> </h3>
                             <ul>
                                 <li><a href="#">Income Tax Return</a></li>
-                            <li><a href="#">TDS Return</a></li>
-                            <li><a href="#">GST Registration</a></li>
-
+                                <li><a href="#">TDS Return</a></li>
+                                <li><a href="#">GST Registration</a></li>
                             </ul>
                         </div>
                     </div>
-
-
                     <div class="col-md-3">
-                    <div class="footer-heading">
-                        <h3><span>Loans and others</span> </h3>
-
+                        <div class="footer-heading">
+                            <h3><span>Loans and others</span> </h3>
                             <ul>
                                 <li><a href="#">Business Loans</a></li>
-                            <li><a href="#">Loan against property</a></li>
-                            <li><a href="#">Online Seller Finance</a></li>
-
+                                <li><a href="#">Loan against property</a></li>
+                                <li><a href="#">Online Seller Finance</a></li>
                             </ul>
                         </div>
                     </div>
-
-
-
                 </div>
-
             </div>
         </div>
-    </div>
-
-<!--bottom footer-->
-<div id="bottom-footer" class="hidden-xs">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="footer-left">
-                        &copy; MyLaw Website. All rights reserved
-                        <div class="credits">
-                            <!--
-                All the links in the footer should remain intact.
-                You can delete the links only if you purchased the pro version.
-                Licensing information: https://bootstrapmade.com/license/
-                Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=MyBiz
-              -->
-                        <!--    Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>-->
+        </div>
+        <!--bottom footer-->
+        <div id="bottom-footer" class="hidden-xs">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="footer-left">
+                            &copy; MyLaw Website. All rights reserved
+                            <div class="credits">
+                                <!--
+                                    All the links in the footer should remain intact.
+                                    You can delete the links only if you purchased the pro version.
+                                    Licensing information: https://bootstrapmade.com/license/
+                                    Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=MyBiz
+                                    -->
+                                <!--    Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="footer-right">
+                            <ul class="list-unstyled list-inline pull-right">
+                                <li><a href="#home">Home</a></li>
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#service">Service</a></li>
+                                <li><a href="#portfolo">Portfolio</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                            </ul>
                         </div>
                     </div>
                 </div>
-
-                <div class="col-md-8">
-                    <div class="footer-right">
-                        <ul class="list-unstyled list-inline pull-right">
-                            <li><a href="#home">Home</a></li>
-                            <li><a href="#about">About</a></li>
-                            <li><a href="#service">Service</a></li>
-                            <li><a href="#portfolo">Portfolio</a></li>
-                            <li><a href="#contact">Contact</a></li>
-                        </ul>
-                    </div>
-                </div>
             </div>
         </div>
-    </div>
-
-
-
-<script type="text/javascript" src="js/bootstrap.js"></script>
-  <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-
-    <script src="js/script.js"></script>
-
-</body>
-
+        <script src="../js/jquery.min.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
+        <!-- script-for-menu -->
+        <script>
+            $("span.menu").click(function(){
+                $(" ul.navig").slideToggle("slow" , function(){
+                });
+            });
+        </script>
+        <!-- script-for-menu -->
+        <script src="../js/script.js"></script>
+    </body>
 </html>

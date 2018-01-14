@@ -1,35 +1,29 @@
 #main-nav {
-  box-shadow: 0 2px 6px #333;
+     box-shadow: 0 2px 6px #333;
 }
-
-#main-nav.affix {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: rgba(255,255,255,0.9);
-    color: #fff;
-    z-index:10;
-  	-moz-box-shadow: 0 2px 6px #333;
-  	-webkit-box-shadow: 0 2px 6px #333;
-  	box-shadow: 0 2px 6px #333;
-    transition: all 0.5s;
-    display: inline;
+ #main-nav.affix {
+     position: fixed;
+     top: 0;
+     width: 100%;
+     background-color: rgba(255,255,255,0.9);
+     color: #fff;
+     z-index:10;
+     -moz-box-shadow: 0 2px 6px #333;
+     -webkit-box-shadow: 0 2px 6px #333;
+     box-shadow: 0 2px 6px #333;
+     transition: all 0.5s;
+     display: inline;
 }
-
-#service{
-  background-color: grey;
-  color: black;
+ #service{
+     background-color: grey;
+     color: black;
 }
-
-.footer-heading a
-{
-  display: inline;
+ .footer-heading a {
+     display: inline;
 }
-.footer-heading li
-{
-  display: block;
+ .footer-heading li {
+     display: block;
 }
-
-#map{
-  width: 100%;
+ #map{
+     width: 100%;
 }
