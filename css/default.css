@@ -263,7 +263,7 @@ textarea:focus {
 }
 
 #slider.flexslider .slides > li img {
-	
+
 }
 
 /*Slider Caption*/
@@ -443,11 +443,11 @@ textarea:focus {
 }
 #about .about-left:before {
 	content: "";
-    
-	width: 125%;
+	border: 8px solid #e5eef0;
+	width: 105%;
     height: 100%;
     position: absolute;
-    right: 0;
+    left: 0;
     top: 0;
 }
 
@@ -457,7 +457,7 @@ textarea:focus {
 }
 #about .about-left{
 	position: relative;
-	padding: 0 80px 150px 40px;
+	padding: 0 80px 150px 80px;
 }
 
 #about .about-right-heading h1 {
@@ -641,6 +641,62 @@ textarea:focus {
 		font-size: 30px;
 		padding: 20px 20px 0 0;
 	}
+	#about .about-left:before {
+	    content: "";
+	    border: 8px solid #e5eef0;
+	    width: 100%;
+	    height: 100%;
+	}
+
+	#about .about-left {
+	    position: relative;
+	    padding: 30px;
+	    margin-top: 20px;
+	}
+
+	#about .about-left-heading h1 {
+	    padding-top: 20px;
+	    font-size: 25px;
+	    text-align: center;
+	}
+
+	#about .about-left-boot:before {
+	    font-size: 30px;
+	    padding: 20px 20px 0 0;
+	}
+
+	#about .about-left-wrapper {
+	    position: relative;
+	    left: 0;
+	    top: 35px;
+	}
+
+	#about .about-left-wrapper a > h3 {
+	    font-size: 20px;
+	}
+
+	#about .about-left-wrapper p {
+	    margin-top: 20px;
+	    font-size: 13px;
+	}
+
+	#about .about-left-best {
+	    margin-top: 40px;
+	}
+
+	#about .about-left-best:before {
+	    font-size: 30px;
+	    padding: 20px 20px 0 0;
+	}
+
+	#about .about-left-support {
+	    margin-top: 40px;
+	}
+
+	#about .about-left-support:before {
+	    font-size: 30px;
+	    padding: 20px 20px 0 0;
+	}
 }
 
 /*Media*/
@@ -715,6 +771,62 @@ textarea:focus {
 	#about .about-right-support:before {
 		font-size: 30px;
 		padding: 20px 20px 0 0;
+	}
+	#about .about-left:before {
+	    content: "";
+	    border: 8px solid #e5eef0;
+	    width: 100%;
+	    height: 100%;
+	}
+
+	#about .about-left {
+	    position: relative;
+	    padding: 30px;
+	    margin-top: 20px;
+	}
+
+	#about .about-left-heading h1 {
+	    padding-top: 20px;
+	    font-size: 25px;
+	    text-align: center;
+	}
+
+	#about .about-left-boot:before {
+	    font-size: 30px;
+	    padding: 20px 20px 0 0;
+	}
+
+	#about .about-left-wrapper {
+	    position: relative;
+	    left: 0;
+	    top: 35px;
+	}
+
+	#about .about-left-wrapper a > h3 {
+	    font-size: 20px;
+	}
+
+	#about .about-left-wrapper p {
+	    margin-top: 20px;
+	    font-size: 13px;
+	}
+
+	#about .about-left-best {
+	    margin-top: 40px;
+	}
+
+	#about .about-left-best:before {
+	    font-size: 30px;
+	    padding: 20px 20px 0 0;
+	}
+
+	#about .about-left-support {
+	    margin-top: 40px;
+	}
+
+	#about .about-left-support:before {
+	    font-size: 30px;
+	    padding: 20px 20px 0 0;
 	}
 
 }
@@ -810,7 +922,7 @@ textarea:focus {
 
 #service .col-md-6 {
 	padding: 0;
-	
+
 }
 
 #service .service-heading {
@@ -844,38 +956,38 @@ textarea:focus {
 	position: relative;
 	width: 50%;
 	float: left;
-	background: #f2f3f4;	
+	background: #f2f3f4;
 }
 
 .services-style-one .service-block {
 	position: relative;
-	margin-bottom: 40px;	
+	margin-bottom: 40px;
 }
 
 .services-style-one .services-column .content-outer {
 	position: relative;
 	float: right;
 	max-width: 700px;
-	padding: 80px 20px 40px 40px;	
+	padding: 80px 20px 40px 40px;
 }
 
 .services-style-one .services-column .icon-box {
 	font-size: 36px;
 	margin-bottom: 15px;
 	line-height: 1px;
-	color: #01b1d7;	
+	color: #01b1d7;
 }
 
 .services-style-one .services-column h4 {
 	font-size: 14px;
 	margin-bottom: 10px;
-	color: #1c1c1c;	
+	color: #1c1c1c;
 }
 
 .services-style-one .services-column .text {
 	font-size: 13px;
 	color: #5a5a5a;
-	max-width: 250px;	
+	max-width: 250px;
 }
 
 .services-style-one .content-column {
@@ -890,7 +1002,7 @@ textarea:focus {
 	position: relative;
 	float:left;
 	padding: 170px 20px 100px 320px;
-	max-width: 700px;	
+	max-width: 700px;
 }
 
 .services-style-one .content-column .sec-title h2 {
@@ -979,7 +1091,7 @@ textarea:focus {
 	}
 
 	.services-style-one .content-column .content-box {
-		padding: 200px 20px 100px 20px;	
+		padding: 200px 20px 100px 20px;
 	}
 }
 
@@ -994,7 +1106,7 @@ textarea:focus {
 	}
 
 	.services-style-one .content-column .content-box {
-		padding: 200px 20px 100px 20px;	
+		padding: 200px 20px 100px 20px;
 	}
 }
 
@@ -1308,7 +1420,7 @@ textarea:focus {
     color: black;
     font-size: 20px;
     font-family: 'Raleway', sans-serif;
-   
+
 
 }
 
@@ -1400,4 +1512,3 @@ textarea:focus {
 #bottom-footer .footer-right ul > li > a:hover {
 	color: #01b1d7;
 }
-
