@@ -2,18 +2,18 @@ $(document).ready(function() {
 
     //Smooth Scroll
     // $(function() {
-    // 	$('a[href*="#"]:not([href="#"])').click(function() {
-    // 		if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-    // 			var target = $(this.hash);
-    // 			target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-    // 			if (target.length) {
-    // 				$('html, body').animate({
-    // 					scrollTop: target.offset().top
-    // 				}, 1000);
-    // 				return false;
-    // 			}
-    // 		}
-    // 	});
+    //  $('a[href*="#"]:not([href="#"])').click(function() {
+    //      if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+    //          var target = $(this.hash);
+    //          target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+    //          if (target.length) {
+    //              $('html, body').animate({
+    //                  scrollTop: target.offset().top
+    //              }, 1000);
+    //              return false;
+    //          }
+    //      }
+    //  });
     // });
     //
     // Main Menu
@@ -34,17 +34,17 @@ $(document).ready(function() {
 
     //Slider
     // $('.flexslider').flexslider({
-    // 	animation: "fade",
-    // 	directionNav: false,
-    // 	pauseOnAction: false,
+    //  animation: "fade",
+    //  directionNav: false,
+    //  pauseOnAction: false,
     // });
     //
     // var containerPosition = $('.container').offset();
     // var positionPad = containerPosition.left + 15;
     //
     // $('#slider').find('.caption').css({
-    // 	left: positionPad + 'px',
-    // 	marginTop: '-' + $('.caption').height() / 2 + 'px'
+    //  left: positionPad + 'px',
+    //  marginTop: '-' + $('.caption').height() / 2 + 'px'
     // });
     //
 
@@ -84,7 +84,6 @@ $(document).ready(function() {
     //     });
     // }
     // google.maps.event.addDomListener(window, 'load', initialize_google_map);
-
     var modal = document.getElementById('loginModal');
 
     var btn = document.getElementById("loginBtn");
