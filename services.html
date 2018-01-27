@@ -58,6 +58,7 @@
                                 <li class="hidden-sm hidden-xs">
                                     <a href="#" id="ss"><i class="fa fa-search" aria-hidden="true"></i></a>
                                 </li>
+                                <li><button class="btn" id="loginBtn">Login &amp; Signup</button></li>
                             </ul>
                         </div>
                         <div class="search-form">
@@ -164,6 +165,48 @@
                 </div>
             </div>
         </div>
+        <!-- Modal -->
+        <div id="loginModal" class="userModal">
+            <div class="loginContent">
+                <span class="close">&times;</span>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <form class="loginOption">
+                                <label class="radio-inline">
+                                    <input type="radio" name="optradio">Login
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="optradio">Sign Up
+                                </label>
+                            </form>
+                        </div>
+                        <div class="col-md-12">
+
+                            <form action="" method="post" role="form" class="form contactForm">
+        						<div class="col-md-12">
+        							<div class="form-group">
+        								<input type="text" name="loginId" class="form-control" id="name" placeholder="Username/E-Mail" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+        								<div class="validation"></div>
+        							</div>
+        						</div>
+        						<div class="col-md-12">
+        							<div class="form-group">
+        								<input class="form-control" name="loginPass" id="password" placeholder="Password" data-rule="minlen:4" type="password" data-msg="Please enter at least 8 chars of subject" />
+        								<div class="validation"></div>
+        							</div>
+        						</div>
+        						<div class="submit">
+        							<button class="btn btn-default" type="submit">Login</button>
+        						</div>
+        					</form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal -->
         <!--footeer-->
         <div id="footer">
             <div class="container">
