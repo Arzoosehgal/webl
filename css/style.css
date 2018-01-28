@@ -34,10 +34,6 @@
     width: 100%;
 }
 
-.form-control{
-    height: 40px;
-}
-
 .nav-pills {
     text-align:center;
 }
@@ -75,7 +71,6 @@
 
 .testimonials{
     padding: 40px 0;
-    font-family: 'Raleway';
     background-color: #01b1d7;
     background: -webkit-linear-gradient(top,#01b1d7, #99dfef);
     color: #fff;
@@ -90,7 +85,6 @@
 
 .recommendation{
     padding: 40px 0;
-    font-family: 'Raleway';
 }
 
 figure.snip {
@@ -254,8 +248,6 @@ width: 60%;
     color: #fff;
     font-size: 100%;
     line-height: 1.5;
-    /*font-family: "Roboto", sans-serif;*/
-    font-family: 'Raleway', sans-serif;
     padding: 30px 0px;
 }
 
@@ -332,7 +324,7 @@ width: 60%;
 {
     width: 350px;
 }
- 
+
 .btn:hover
 {
     background-color: #fff;
@@ -340,4 +332,45 @@ width: 60%;
     border-color: #01b1d7;
 }
 
+.modal-body .form input {
+	height: 50px;
+	width: 100%;
+	border-color: #ebebeb;
+}
 
+.modal-body .form textarea {
+	width: 100%;
+	height: 180px;
+	border-color: #ebebeb;
+	margin-top: 20px;
+}
+
+.modal-body .form .submit {
+	text-align: center;
+}
+
+.modal-body .form .submit .btn {
+	margin-top: 25px;
+	background-color: transparent;
+	color: #7e7e7e;
+	border-color: #01b1d7;
+}
+
+.modal-body .form .submit .btn:hover {
+	background-color: #01b1d7;
+	color: #fff;
+}
+
+.login-social-media>h3{
+    margin: 0;
+}
+
+.login-social-media a{
+    display: inline-block;
+    padding: 10px;
+
+}
+
+.login-social-media a>img{
+    width: 50px;
+}

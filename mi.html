@@ -7,26 +7,33 @@
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Open+Sans|Raleway" rel="stylesheet">
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    
+
     <link rel="stylesheet" href="css/font-awesome.min.css">
 
     <link rel="stylesheet" href="css/blog-article-ionicons.css">
-       
+
     <link rel="stylesheet" href="css/default.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-
+      <div id="fb-root"></div>
+          <script>(function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.11';
+            fjs.parentNode.insertBefore(js, fjs);
+          }(document, 'script', 'facebook-jssdk'));</script>
 
 
 <button class="btn" data-toggle="modal" data-target="#myModal">
     Login modal</button>
 
-                                 
-                                                    
 
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
-    aria-hidden="true">
+
+
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <!-- <div class="modal-header"> -->
@@ -35,115 +42,99 @@
                  <!-- <h4 class="modal-title" id="myModalLabel">  -->
                     <!-- Login/Registration - <a href="http://www.jquery2dotnet.com">jquery2dotnet.com</a></h4>  -->
             <!-- </div> -->
-        
+
             <div class="modal-body">
                 <div class="row">
                     <!-- <div class="col-md-8" style="border-right: 1px dotted #C2C2C2;padding-right: 30px;"> -->
-                           
-                        <ul class="nav nav-tabs">
-                            <li class="active"><a href="#Login" data-toggle="tab">Login</a></li>
-                            <li><a href="#Registration" data-toggle="tab">Registration</a></li>
-                        </ul>
-                        <!-- <!-- Tab panes -->
-                        <div class="tab-content">
-                            <div class="tab-pane active" id="Login">
-                                <form role="form" class="form-horizontal">
+                        <div class="col-md-12">
+                            <ul class="nav nav-tabs nav-justified">
+                                <li class="active"><a href="#Login" data-toggle="tab">Login</a></li>
+                                <li><a href="#Registration" data-toggle="tab">Registration</a></li>
+                            </ul>
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="Login">
+                                    <form action="" method="post" role="form" class="form contactForm">
+                    						<div class="col-md-12">
+                    							<div class="form-group">
+                    								<input type="text" class="form-control" id="login-id" placeholder="Username or Email" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                    								<div class="validation"></div>
+                    							</div>
+                    						</div>
+                    						<div class="col-md-12">
+                    							<div class="form-group">
+                    								<input type="password" class="form-control" id="login-password" placeholder="Password" data-rule="login-pwd" data-msg="Please enter a valid email" />
+                    								<div class="validation"></div>
+                    							</div>
+                    						</div>
 
-                                <div class="form-group">
-                                    <div class="modalstyle">
-                                    <div class="col-sm-12">
-                                        <input type="email" class="form-control" id="email1" placeholder="Email" />
-                                    </div>
+                    						<div class="submit">
+                    							<button class="btn btn-default" type="submit">Login</button>
+                    						</div>
+                    					</form>
                                 </div>
-                                </div>
-                                <div class="form-group">
-                                
-                                    <div class="col-sm-12">
-                                        <input type="email" class="form-control" id="exampleInputPassword1" placeholder="password"/>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                        <button type="submit" class="btn btn-sm">
-            
-                                            Submit</button><br>
-
-                                        <a href="javascript:;">Forgot your password?</a>
-                                    
-                                </div>
-                                </form>
-                            </div>
-                            <div class="tab-pane" id="Registration">
-                                <form role="form" class="form-horizontal">
-                                <div class="form-group">
-                                    
-                                    <div class="col-sm-12">
-                                        <div class="row">
-                                           <!-- <div class="col-md-3">
-                                               <!-- <select class="form-control">
-                                                    <option>Mr.</option>
-                                                    <option>Ms.</option>
-                                                    <option>Mrs.</option>
-                                                </select>
-                                            </div>-->
+                                <div class="tab-pane" id="Registration">
+                                    <form action="" method="post" role="form" class="form contactForm">
+                    						<div class="col-md-12">
+                    							<div class="form-group">
+                    								<input type="text" class="form-control" id="reg-name" placeholder="Full Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                    								<div class="validation"></div>
+                    							</div>
+                    						</div>
+                    						<div class="col-md-12">
+                    							<div class="form-group">
+                    								<input type="password" class="form-control" id="reg-username" placeholder="Username" data-rule="reg-uname" data-msg="Please enter a valid email" />
+                    								<div class="validation"></div>
+                    							</div>
+                    						</div>
+                    						<div class="col-md-12">
+                    							<div class="form-group">
+                    								<input type="email" class="form-control" id="reg-email" placeholder="E-Mail ID" data-rule="reg-email" data-msg="Please enter a valid email" />
+                    								<div class="validation"></div>
+                    							</div>
+                    						</div>
+                    						<div class="col-md-12">
+                    							<div class="form-group">
+                    								<input type="tel" class="form-control" id="reg-mob" placeholder="Moble Number" data-rule="reg-uname" data-msg="Please enter a valid email" />
+                    								<div class="validation"></div>
+                    							</div>
+                    						</div>
+                    						<div class="col-md-12">
+                    							<div class="form-group">
+                    								<input type="password" class="form-control" id="reg-password" placeholder="Password" data-rule="reg-uname" data-msg="Please enter a valid email" />
+                    								<div class="validation"></div>
+                    							</div>
+                    						</div>
                                             <div class="col-md-12">
-                                                <input type="text" class="form-control" placeholder="Name" />
-                                            </div>
-                                        </div>
-                                    </div>
+                    							<div class="form-group">
+                    								<input type="password" class="form-control" id="reg-cpassword" placeholder="Confirm Password" data-rule="reg-uname" data-msg="Please enter a valid email" />
+                    								<div class="validation"></div>
+                    							</div>
+                    						</div>
+                    						<div class="submit">
+                    							<button class="btn btn-default" type="submit">Register</button>
+                    						</div>
+                    					</form>
                                 </div>
-                                <div class="form-group">
-                                    
-                                    <div class="col-sm-12">
-                                        <input type="email" class="form-control" id="email" placeholder="Email" />
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    
-                                    <div class="col-sm-12">
-                                        <input type="email" class="form-control" id="mobile" placeholder="Mobile" />
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    
-                                    <div class="col-sm-12">
-                                        <input type="password" class="form-control" id="password" placeholder="Password" />
-                                    </div>
-                                </div>
-                                 <div class="form-group">
-                                    
-                                    <div class="col-sm-12">
-                                        <input type="password" class="form-control" id="password" placeholder="ConfirmPassword" />
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-sm-2">
-                                    </div>
-                                    <div class="col-sm-12">
-                                        <button type="button" class="btn btn-sm">
-                                           Save & Continue</button><br><br>
-                                        <button type="button" class="btn btn-default btn-sm">
-                                            Cancel</button>
-                                    </div>
-                                </div>
-                                </form>
                             </div>
-                        </div>
-                        
-                    <!-- </div> -->
-                    <!-- <div class="col-md-4"> -->
-                        <div class="row text-center sign-with">
-                            <div class="col-md-12">
-                                <h3>
-                                    Sign in with</h3>
-                            </div>
-                            <div class="col-md-12">
-                                <div class="btn-group">  
-                                    <a href="#" class="btn btn-primary">Facebook</a> <a href="#" class="btn btn-danger">
-                                        Google</a>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="login-social-media text-center">
+                                        <h3>
+                                            Sign in with
+                                        </h3>
+                                        <a href="#">
+                                            <img src="img/login-fb.svg">
+                                        </a>
+                                        <a href="#">
+                                            <img src="img/login-gplus.svg">
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    <!-- </div> -->
+
+                        <!-- <!-- Tab panes -->
+
                 </div>
             </div>
         </div>

@@ -7,7 +7,7 @@
 
 /*General*/
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Raleway','Open Sans', sans-serif;
 	font-size: 14px;
 	font-size: normal;
 	font-smooth: always;
@@ -64,6 +64,7 @@ textarea {
 input[type="text"]:focus,
 input[type="password"]:focus,
 input[type="email"]:focus,
+input[type="tel"]:focus,
 textarea:focus {
 	background: rgba(62, 212, 255, 0.5);
 	border-color: #01b1d7 !important;
