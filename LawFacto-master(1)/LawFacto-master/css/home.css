@@ -1,0 +1,513 @@
+@import url('https://fonts.googleapis.com/css?family=Pathway+Gothic+One');
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700');
+
+
+html{
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body{ 
+	background: #f5f6fa;
+	margin: 0px;
+	padding: 0px;
+	overflow-x:hidden;
+	font-family: "Didact Gothic";
+}
+
+nav {
+	width: 100%;
+	padding: 20px 0px;
+	background: white;
+	box-shadow: 0px 1px 10px #0000001a;
+}
+
+nav .menu {
+	width: 27px;
+	text-align: center;
+	cursor: pointer;
+}
+
+nav h1.logo {
+	color: #0085e0;
+	font-size: 20px;
+	vertical-align: super;
+	font-weight: 500;
+}
+
+nav h1.user-name {
+	color: black;
+	font-size: 15px;
+	vertical-align: bottom;
+	font-weight: 700;
+}
+
+nav h1.user-name span {
+	color: #c7c7c7;
+	font-size: 12px;
+}
+
+nav .user-img {
+	width: 30px;
+	cursor: pointer;
+	border-radius: 100%;
+}
+
+nav .nav-right {
+	text-align: center;
+}
+
+workspace .block-workspace, perCauselist .block-workspace, billing .block-workspace, billing .bills_content {
+	width: 750px;
+	position: relative;
+	padding: 20px 30px 30px 30px;
+	border-radius: 7px;
+	margin-top: 50px;
+	text-align: left;
+	cursor: pointer;
+	background: white;
+	box-shadow: 0px 1px 7px #0000001a;
+	transition: box-shadow 0.25s linear;
+}
+
+billing .block-workspace, billing .bills_content {
+	width: 70%;
+	background: transparent;
+	box-shadow: none;
+}
+
+billing .bills_content {
+	padding: 0;
+}
+
+
+perCauselist .block-workspace {
+	width: 900px;
+}
+
+calendar .block-workspace {
+	padding: 20px 0px;
+	width: 90%;
+	position: relative;
+	border-radius: 7px;
+	margin-top: 50px;
+	margin: 0 auto;
+	text-align: left;
+	cursor: pointer;
+}
+
+calendar .content-cal {
+	overflow-y: auto;
+	width: 100%;
+}
+
+calendar .block-workspace .row {
+	width: 100% !important;
+}
+
+workspace .block-workspace:hover, perCauselist .block-workspace, calendar .block-workspace {
+	transition: box-shadow 0.25s linear;
+}
+
+workspace h1.date-workspace, WorkspaceModule h1.date-workspace, perCauselist h1.date-workspace, calendar h1.date-workspace  {
+	color: black;
+	font-size: 40px;
+	padding: 0px;
+	margin:0px;
+} 
+
+workspace p.month-workspace, WorkspaceModule p.month-workspace, perCauselist p.month-workspace, calendar p.month-workspace  {
+	color:#00add8;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 10px;
+	padding: 0px;
+	margin:0px;
+}
+
+workspace h1.name-workspace, WorkspaceModule h1.name-workspace, perCauselist h1.name-workspace, calendar h1.name-workspace  {
+	color: black;
+	font-size: 20px;
+	padding: 0px;
+	margin:0px;
+}
+
+workspace p.text-workspace, WorkspaceModule p.text-workspace, perCauselist p.text-workspace, calendar p.text-workspace  {
+	color: #c7c7c7;
+	font-weight: 600;
+	font-size: 10px;
+	padding: 0px;
+	margin:0px;
+}
+
+workspace p.case-workspace, workspace p.item-workspace, WorkspaceModule p.item-workspace, WorkspaceModule p.case-workspace, perCauselist p.case-workspace, perCauselist p.item-workspace, calendar p.case-workspace, calendar p.item-workspace  {
+	color: black;
+	font-weight: 600;
+	font-size: 10px;
+	padding: 0px;
+	display: inline-block;
+	margin:0px;
+}
+
+workspace p.item-workspace, WorkspaceModule p.item-workspace, perCauselist p.item-workspace, calendar p.item-workspace {
+	margin-left: 20px;
+}
+
+workspace p.case-workspace span, workspace p.item-workspace span, WorkspaceModule p.case-workspace span, WorkspaceModule p.item-workspace span, perCauselist p.item-workspace span, perCauselist p.case-workspace span, calendar p.case-workspace span, calendar p.item-workspace span  {
+	color: #c7c7c7;
+}
+
+workspace .sm-box, WorkspaceModule .sm-box, perCauselist .sm-box, calendar .sm-box {
+	position: absolute;
+	right: 0px;
+	top:30px;
+	width: 20px;
+	height: 20px;
+	background: #00add8;
+}
+
+workspace .lg-box, WorkspaceModule .lg-box, perCauselist .lg-box, calendar .lg-box {
+	position: absolute;
+	right: 32px;
+	top:30px;
+	padding: 3px 5px;
+	width: 130px;
+	color: white;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 10px;
+	background: #00add8;
+}
+
+calendar .lg-box, calendar .sm-box {
+	top: 60px;
+}
+
+calendar .lg-box {
+	right: 50px;
+}
+
+workspace .filter, perCauselist .filter, billing .filter {
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+
+workspace .add_work, perCauselist .add_work, billing .billing_add {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+}
+
+workspace .add_work .add, perCauselist .add_work .add, billing .billing_add .add {
+	background: #d3136b;
+	padding: 4px 15px;
+	font-size: 30px;
+	color: white;
+	box-shadow: 0px 1px 7px #0000001a;
+	border-radius: 100%;
+	cursor: pointer;
+	font-weight: bold;
+
+
+}
+
+workspace .filter .court, .court.filter-date, perCauselist .filter .court, billing .filter .court {
+	background: white;
+	width: 120px;
+	display: inline-block;
+	cursor: pointer;
+	text-align: center;
+	padding: 12px;
+	box-shadow: 0px 1px 7px #0000001a;
+}
+
+billing .filter .court {
+	width: 155px;
+	text-align: left;
+	padding: 12px 14px;
+}
+
+WorkspaceModule {
+	width: 42%;
+	height: 79%;
+	padding: 20px 30px;
+	box-shadow: 0px 1px 7px #0000001a;
+	border-top-left-radius: 7px;
+	border-bottom-left-radius: 7px;
+	background: white;
+	position: fixed;
+	bottom: 50px;
+	right: 0px;
+}
+
+WorkspaceModule .rel {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+workspace .court img, .court.filter-date img, perCauselist .court img, billing .court img {
+	width: 25px;
+	vertical-align: middle;
+}
+
+billing .court i {
+	font-size: 25px;
+	color: #D31A6C;
+	vertical-align: middle;
+}
+
+workspace .court p, .court.filter-date p, perCauselist .court p, billing .court p {
+	margin-left: 8px;
+	text-align: left;
+	display: inline-block;
+	font-size: 12px;
+	vertical-align: top;
+	text-transform: uppercase;
+	color: black;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+
+workspace .court p span, .court.filter-date p span, perCauselist .court p span, billing .court p span {
+	color: #c7c7c7;
+	font-size: 10px;
+}
+
+.court.filter-date {
+	background: transparent !important;
+	border:2px solid #c7c7c7;
+	box-shadow: none !important;
+}
+
+
+WorkspaceModule .tab {
+	margin-top: 50px;
+	width: 100%;
+	border-bottom: 1px solid #c7c7c7;
+}
+
+WorkspaceModule .tab ul li {
+	display: inline-block;
+}
+
+WorkspaceModule .tab ul {
+	list-style-type: none;
+	margin-left: 70px;
+}
+
+WorkspaceModule .tab ul li {
+	padding: 15px 25px;
+	background: white;
+	cursor: pointer;
+	border:1px solid #c7c7c7;
+	border-bottom: none;
+	color: black;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+WorkspaceModule .tab ul li.active {
+	border:none;
+	color: white;
+	background: #00add8;
+}
+
+addworkspace {
+	z-index: 9999999999;
+	background: rgba(0, 0, 0, 0.6);
+	width: 100%;
+	height: 100%;
+	display: block;
+	position: fixed;
+	display: none;
+	top:0;
+	left: 0;
+}
+
+addworkspace .component {
+	padding: 30px;
+	width: 600px;
+	margin: 0 auto;
+	margin-top: 100px;
+	position: relative;
+	background: white;
+	border-radius: 5px;
+}
+
+addworkspace .component h1 {
+	font-size: 16px;
+	color: #d3136b;
+}
+
+addworkspace .component select, addworkspace .component input	{
+	padding: 10px 0px;
+	width: 100%;
+	background: white;
+	border:none;
+	border-bottom:2px solid #d3136b;	
+}
+
+addworkspace .component button {
+	padding: 10px;
+	width: 300px;
+	border:none;
+	background: #00add8;
+	box-shadow: 1px 3px 2px #014150;
+	font-size: 20px;
+	color: white;
+	text-transform: uppercase;
+	margin: 0 auto;
+	border-radius: 10px;
+}
+
+sideNav {
+	width: 350px;
+	height:100%;
+	box-shadow: 0px 1px 10px #0000001a;
+	background: white;
+	position: fixed;
+	top: 0;
+	left: 0;	
+}
+
+perCauselist .date h1 {
+	margin-top: 30px;
+	color: #D31A6C;
+	font-size:35px; 
+} 
+
+perCauselist .date p {
+	text-decoration: underline;
+	cursor: pointer;
+} 
+
+calendar .row {
+	width: 90%;
+	box-shadow: 0px 1px 10px #0000001a;
+	margin: 0 auto;
+	margin-top: 30px;
+	background: white;
+}
+
+.calendar {
+	padding: 0px !important;
+}
+
+.calendar .days-tab .set {
+	border-bottom: 3px solid #D31A6C;
+}
+
+.calendar .days-tab td {
+	cursor: pointer;
+}
+
+.calendar .days-tab .today {
+	background: #D31A6C;
+	color: white;
+}
+
+.content-calendar h1 {
+	padding: 60px 0px;
+	color: #D31A6C;
+	font-size: 22px;
+	transform: uppercase;
+}
+
+.calendar .date-tab {
+	padding: 30px 0px;
+	background: #D31A6C;
+	line-height: 50px;
+}
+
+.calendar .month-tab {
+	padding: 25px 0px;
+	background: white;
+}
+
+.calendar .sm-tab, .calendar .lg-tab {
+	background: #D31A6C;
+	width: 100%;
+}
+
+.calendar .sm-tab {
+	padding: 10px 0px;
+}
+
+.calendar .lg-tab {
+	padding:40px 0px;
+}
+
+.calendar .month-tab h1 {
+	font-size: 20px;
+	font-weight: 500;
+	color: #D31A6C;
+}
+
+.calendar .date-tab h1 {
+	font-size: 80px;
+	font-weight: bold;
+	color: white;
+}
+
+.calendar .date-tab p {
+	font-size: 20px;
+	font-weight: 500;
+	margin: 0;
+	color: white;
+	text-transform: uppercase;
+}
+.textcenter
+{
+	text-align: center;
+}
+
+.textleft
+{
+	text-align: left;
+}
+.worknav
+{
+	background: transparent;
+	box-shadow: none;
+	cursor: auto;
+}
+.add_work
+{
+	margin-left: 0px;
+	padding-top: 5px;
+}
+.filter-date
+{	margin-bottom: 0.1px;
+
+}
+.workspacedate
+{
+	margin: 0px;
+	padding: 10px;
+	border-right: 2px solid #0000001a;
+	height: 85%;
+}
+.workspacename
+{
+	margin-left: 20px;
+	padding-top: 5px;
+}
+.billing_add
+{
+	margin-left: 30px;
+	padding-top: 5px;
+}
+.closeadd a
+{
+	color: black;
+}
